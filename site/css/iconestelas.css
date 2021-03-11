@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?bhxg5f');
+  src:  url('../fonts/icomoon.eot?bhxg5f#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?bhxg5f') format('truetype'),
+    url('../fonts/icomoon.woff?bhxg5f') format('woff'),
+    url('../fonts/icomoon.svg?bhxg5f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-acessibilidade:before {
+  content: "\e900";
+}
+.icon-acessoainformacao:before {
+  content: "\e901";
+}
+.icon-acoes:before {
+  content: "\e902";
+}
+.icon-agenda:before {
+  content: "\e903";
+}
+.icon-aprefeitura:before {
+  content: "\e904";
+}
+.icon-assistenciasocial:before {
+  content: "\e905";
+}
+.icon-associacoes:before {
+  content: "\e906";
+}
+.icon-Bens-Imoveis:before {
+  content: "\e907";
+}
+.icon-Bens-moveis:before {
+  content: "\e908";
+}
+.icon-carta:before {
+  content: "\e909";
+}
+.icon-certidoes:before {
+  content: "\e90a";
+}
+.icon-conselhos:before {
+  content: "\e90b";
+}
+.icon-contratos:before {
+  content: "\e90c";
+}
+.icon-convenios:before {
+  content: "\e90d";
+}
+.icon-credores:before {
+  content: "\e90e";
+}
+.icon-cultura:before {
+  content: "\e90f";
+}
+.icon-decretoss:before {
+  content: "\e910";
+}
+.icon-despesas:before {
+  content: "\e911";
+}
+.icon-diarias:before {
+  content: "\e912";
+}
+.icon-diariooficial:before {
+  content: "\e913";
+}
+.icon-educacaoescolas:before {
+  content: "\e914";
+}
+.icon-email:before {
+  content: "\e915";
+}
+.icon-enderecos:before {
+  content: "\e916";
+}
+.icon-enquete:before {
+  content: "\e917";
+}
+.icon-esportes:before {
+  content: "\e918";
+}
+.icon-face:before {
+  content: "\e919";
+}
+.icon-festas:before {
+  content: "\e91a";
+}
+.icon-formularios:before {
+  content: "\e91b";
+}
+.icon-fornecedores:before {
+  content: "\e91c";
+}
+.icon-gestores:before {
+  content: "\e91d";
+}
+.icon-impostos:before {
+  content: "\e91e";
+}
+.icon-inscricoes:before {
+  content: "\e91f";
+}
+.icon-instagran:before {
+  content: "\e920";
+}
+.icon-lazer:before {
+  content: "\e921";
+}
+.icon-ldo:before {
+  content: "\e922";
+}
+.icon-leiseatos:before {
+  content: "\e923";
+}
+.icon-licitacao:before {
+  content: "\e924";
+}
+.icon-linkedin:before {
+  content: "\e925";
+}
+.icon-loa:before {
+  content: "\e926";
+}
+.icon-lrf:before {
+  content: "\e927";
+}
+.icon-newslater:before {
+  content: "\e928";
+}
+.icon-nfe:before {
+  content: "\e929";
+}
+.icon-noticias:before {
+  content: "\e92a";
+}
+.icon-obras:before {
+  content: "\e92b";
+}
+.icon-orcamento:before {
+  content: "\e92c";
+}
+.icon-ouvidoria:before {
+  content: "\e92d";
+}
+.icon-perguntas:before {
+  content: "\e92e";
+}
+.icon-pessoal:before {
+  content: "\e92f";
+}
+.icon-portaldeservicos:before {
+  content: "\e930";
+}
+.icon-portarias:before {
+  content: "\e931";
+}
+.icon-ppa:before {
+  content: "\e932";
+}
+.icon-prefeitoevice:before {
+  content: "\e933";
+}
+.icon-projetos:before {
+  content: "\e934";
+}
+.icon-receitas:before {
+  content: "\e935";
+}
+.icon-rgf:before {
+  content: "\e936";
+}
+.icon-rreo:before {
+  content: "\e937";
+}
+.icon-saude:before {
+  content: "\e938";
+}
+.icon-secretarias:before {
+  content: "\e939";
+}
+.icon-secretarios:before {
+  content: "\e93a";
+}
+.icon-seguranca:before {
+  content: "\e93b";
+}
+.icon-selos:before {
+  content: "\e93c";
+}
+.icon-sic:before {
+  content: "\e93d";
+}
+.icon-sobre:before {
+  content: "\e93e";
+}
+.icon-taxas:before {
+  content: "\e93f";
+}
+.icon-telefones:before {
+  content: "\e940";
+}
+.icon-turismo:before {
+  content: "\e941";
+}
+.icon-twiter:before {
+  content: "\e942";
+}
+.icon-urna:before {
+  content: "\e943";
+}
+.icon-veiculos:before {
+  content: "\e944";
+}
+.icon-videos:before {
+  content: "\e945";
+}
+.icon-whatsapp:before {
+  content: "\e946";
+}
+.icon-youtuvbe:before {
+  content: "\e947";
+}

@@ -1,0 +1,1395 @@
+/* lg */ 
+@media (min-width: 1200px) {
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:link .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .modal-lg {
+    width: 900px;
+  } 
+  
+  
+  .card2{
+    padding:0px;
+  }
+
+  .card4 {
+    flex-basis:50%;
+    padding:10px;
+  }
+
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  #VCordet {
+    width: .66666667% !important;
+    display: table-cell;
+  }
+
+  .carousel {
+    margin-top: 20px;
+  }
+
+  .container > .navbar-header, .container > .navbar-collapse {
+    font-size: 8px;
+  }
+  
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:link .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+
+  .navbar-nav > li {
+    margin-left: 10px;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
+  }
+
+  .recent-work-wrap .overlay{
+    padding: 15px;
+  }
+
+  .services-wrap {
+    padding: 40px 10px 40px 30px;
+  }
+
+  .feature-wrap h2, 
+  .single-services h2 {
+    font-size: 18px;
+  }
+
+  .feature-wrap h3, 
+  .single-services h3{
+    font-size: 14px;
+  }
+
+  .tab-wrap .media .parrent.pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .parrent.media-body{
+    clear: both;
+  }
+
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .recent-work-wrap .overlay .preview{
+    line-height: inherit;
+  }
+
+  .team-bar .first-arrow {
+    width: 21%;
+  }
+
+  .team-bar .second-arrow {
+    width: 20%;
+  }
+
+  .team-bar .third-arrow {
+    width: 21%;
+  }
+
+  .team-bar .fourth-arrow {
+    width: 20%;
+  }
+
+  ul.social_icons li{
+    margin-right: 0;
+  }
+	.modal-lg {
+		width: 900px;
+	}          
+  
+  .PBottom {
+    font-size: 10px !important;
+  }
+  #bottom p a {
+    font-size: 10px !important;
+  }
+  #bottom .col-md-6 {
+    width: 40%;
+  }  
+  #bottom .col-md-8 {
+    width: 65%;
+  } 
+  #CaixaBottom{
+       height: 275px !important;
+   }
+
+   #covidBotao {
+     float: none !important;
+   }
+  
+   #col_9_LRF {
+    width: 70% !important;
+  }
+
+  #col_3_LRF {
+    width: 30% !important;
+  }
+
+  #botao_LRF {
+    margin-bottom: 5px;
+  }
+
+  #botaoLC {
+    float: none !important;
+    margin-top: 10px;
+  }
+
+  #VCordet {
+    width: 16.66666667% !important;
+    display: initial !important;
+  }
+
+  .carousel {
+    margin-top: 20px;
+  }
+
+  .card{
+    flex-basis:50%;
+    padding:10px;
+  }
+  .card2{
+    flex-basis:50%;
+    padding:0px;
+  }
+
+  .card4 {
+    flex-basis:50%;
+    padding:10px;
+  }
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Make Navigation Toggle on Desktop Hover */
+    #centralizarLogo {
+      width: 100% !important;
+    }
+    
+    #center_logo_no_responsive {
+      display: block;
+      text-align: -webkit-center;
+    }
+
+    .bs-col4 {
+      width: 50%;
+    }
+    .bs-col6 {
+      width: 50%;
+    }
+    .bs-col2 {
+      width: 100%;
+    }
+    .bs-col4, .bs-col6, .bs-col2 { display: block; }
+    #icone-unidades{
+        display: none !important;
+    }
+
+    #covidBotao {
+      float: none !important;
+    }
+
+  .dropdown:link .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom{
+    position:absolute;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav > li {
+    margin-left: 0;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 20px;
+  }
+
+  .tab-wrap .media .parrent.pull-left, 
+  .media.accordion-inner .pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .parrent.media-body, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+
+  .services-wrap {
+    padding: 40px 0 40px 30px;
+  }
+
+  .recent-work-wrap .overlay{
+   padding: 15px;
+  }
+
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
+  }
+
+  .sinlge-skill{
+    width: 150px;
+    height: 150px;
+  } 
+
+  .sinlge-skill p em {
+    font-size: 25px;
+  }
+
+  .sinlge-skill p {
+    font-size: 16px;
+  }
+
+  .team-bar .first-one-arrow {
+    width: 2%;
+  }
+
+  .team-bar .first-arrow {
+    width: 18%;
+  }
+
+  .team-bar .second-arrow {
+    width: 24%;
+  }
+
+  .team-bar .third-arrow {
+    width: 15%;
+  }
+
+  .team-bar .fourth-arrow {
+    width: 20%;
+  }
+
+  .blog .blog-item .entry-meta > span a{
+    font-size: 10px;
+  }
+  	.modal-lg {
+		width: 900px;
+  }
+  
+  #col_9_LRF {
+    width: 70% !important;
+  }
+
+  #col_3_LRF {
+    width: 30% !important;
+  }
+
+  .card{
+    flex-basis:50%;
+    padding:10px;
+ }
+.card2{
+    flex-basis:50%;
+    padding:0px;
+ }
+.card3{
+    flex-basis:100%;
+    padding:10px;
+ }
+ .imginfo{
+    flex-basis:100%;
+    padding:10px;
+    width: 100%;
+ }
+
+/* Force table to not be like tables anymore */
+.table-condensed table, 
+.table-condensed thead, 
+.table-condensed tbody, 
+.table-condensed th, 
+.table-condensed td, 
+.table-condensed tr { 
+ display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+.table-condensed thead tr { 
+ position: absolute;
+ top: -9999px;
+ left: -9999px;
+}
+
+.table-condensed tr { border: 1px solid #ccc; }
+
+.table-condensed>tbody>tr>td { 
+ /* Behave  like a "row" */
+ border: none;
+ border-bottom: 1px solid #eee; 
+ position: relative;
+ padding-left: 40%; 
+ white-space: normal;
+ text-align:left;
+             
+}
+
+.table-condensed td:before { 
+ /* Now like a table header */
+ position: absolute;
+ /* Top/left values mimic padding */
+ top: 6px;
+ left: 6px;
+ width: 45%; 
+ padding-right: 10px; 
+ white-space: nowrap;
+ text-align:left;
+ font-weight: bold;
+}
+
+/*
+Label the data
+*/
+.table-condensed td:before { content: attr(data-title); display: block; }
+
+.group-btn-export-item {
+ text-align:left;
+}
+.sticky-container {
+ display:none;
+}
+.group-btn-export .btn-primary {
+ width:100%;
+ margin-bottom:10px;
+}
+.group-btn-export .btn-group {
+ display:flex;
+}
+
+
+.card4{
+      flex-basis:50%;
+      padding:10px;
+   }
+     
+     .colun-3 {
+ max-width:inherit;
+}
+     .colun-3 div{
+ flex-grow: 1;
+}
+.colun-3 .public_index {
+ height:auto;
+}
+
+.caixa_objetos {
+ width:25%;
+}
+.caixa_objetos .linha {
+ display:none;
+}
+.caixa_objetos .circulo {
+ display:none;
+ margin-left:0;
+}
+.caixa_objetos .ativo {
+ display:block !important;
+}
+     #iframeinc iframe {
+         width: 100%;
+         overflow: auto;
+     }
+     .top-number{
+         display: none;
+     }
+     #aumentarWidth{
+      width: 80% !important;
+     }
+     
+     #centralizarLogo {
+      width: 100% !important;
+     }
+
+     #center_logo_no_responsive {
+      display: block;
+      text-align: -webkit-center;
+     }
+
+     .centralizar_numero_responsive0 {
+      padding-top: 25px !important;
+      height: 80px !important;
+     }
+
+     .espacamento_responsive0 {
+      padding-top: 15px !important;
+      height: 80px !important;
+     }
+
+     .espacamento_responsive1 {
+      padding-top: 15px !important;
+      height: 70px !important;
+     }
+
+     .espacamento_responsive2 {
+      padding-top: 15px !important;
+     }
+
+     .centralizar_numero_responsive {
+      padding-top: 15px !important;
+      height: 70px !important;
+     }
+
+     .vacina_col {
+      width: 50% !important;
+      float: left;
+     }
+     
+     #diminuir_row_no_responsive {
+      margin-left: 0px !important;;
+      margin-right: 0px !important;;
+     }
+
+     #EsOv{
+         display: none;
+     }
+     #l-obra{
+         width: 100%;
+         text-align: center;
+     }
+     #i-com{
+         font-size: 12px !important;
+     }
+     #lei {
+         padding-top: 5px;
+         margin-top: 10px;
+     }
+     #i-diario{
+         margin-bottom: 5%;
+     }
+     #img-sec{
+         float: none !important;
+     }
+     #i-redeP{
+         width: 100% !important;
+     }
+     #i-redeV{
+         width: 23% !important;
+     }
+     
+     #img_carousel {
+         height: auto !important;
+     }
+     #NeoUnidades{
+         padding-left: 0 !important;
+         padding-right: 0px !important;
+         margin-bottom: 10px !important;
+     }
+     #Sobre{
+         padding-left: 15px !important;
+     }
+     #CaixaBottom{
+         height: 100% !important;
+     }
+     #bottom .col-md-6 {
+       padding-left: 15px;
+       padding-right: 15px;
+       width: 60%;
+     }
+     .item active{
+         height: auto !important;
+     }
+     .item{
+         height: auto !important;
+     }
+     #instiucional_licitacao {
+         width: 100%;
+     }
+     #setor_licitacao {
+         width: 93%;
+     }
+     #Projeto{
+          height: 100% !important;
+          
+     }
+     #imgProgResponsiveSome {
+         display: none;
+     }
+     #imgProgResponsiveAparece {
+         display: block !important;
+         width: 80px !important;
+         height: 120px !important;
+         float: right;
+     }
+    
+  .carousel-indicators {
+    display: none;   
+  }
+  
+    #header {
+       background-position: left -30px, center;
+    }
+
+  .container > .navbar-header, .container > .navbar-collapse{
+    margin-left: 0;
+    font-size: 8px;
+  }
+  .videotv_mini{
+      top:-15px;
+      left:0;
+  }
+  .nomefora1{
+      position:absolute;
+
+      left:-9999px;
+  }
+
+  #ROuv{
+         display: inline-block !important;
+     }
+     #botaoCapanha {
+      white-space: normal;
+      display: block;
+    }
+  
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ffffff;
+   }
+   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+    }
+  .navbar-toggle {
+      background-color: #ffffff;
+  }
+  .navbar-fixed-top, .navbar-fixed-bottom{
+    position:absolute;
+  }
+
+  .top-number{
+    font-size: 14px;
+  }
+
+  input.search-form:hover {
+    width: 120px;
+  }
+
+  .navbar-nav > li {
+    padding-bottom: 0;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 16px;
+  }
+
+  .feature-wrap h2, 
+  .single-services h2 {
+    font-size: 18px;
+  }
+
+  .feature-wrap h3, 
+  .single-services h3{
+    font-size: 14px;
+  }
+
+
+  .media.accordion-inner .pull-left, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+
+  .accordion-inner h4 {
+    margin-top: 10px;
+  }
+
+  .tab-wrap .media .pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .media-body{
+    clear: both;
+  }
+
+  .nav-tabs > li.active > a:after{
+    display: none;
+  }
+
+  #footer .col-sm-6{
+      text-align:center;
+  }
+  
+   #footer .pull-right{
+      float: none !important;
+  }
+
+  .sinlge-skill {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .team .single-profile-top, 
+  .team .single-profile-bottom {
+    margin-bottom: 30px;
+  }
+
+  .clients-area {
+    padding: 60px 0;
+  }
+
+  .clients-area h1 {
+    font-size: 25px;
+  }
+
+  .portfolio-item, 
+  #recent-works .col-xs-12.col-sm-4.col-md-3{
+    padding:0 15px;
+  }
+
+  ul.social_icons li{
+    margin-right: 0;
+  }
+
+  .blog .blog-item .entry-meta{
+    margin-bottom: 20px;
+  }
+
+  .blog .blog-item .blog-content h3 {
+    margin-bottom: 20px;
+  }
+
+  .post_reply_comments {
+    padding-left: 20px;
+  }
+   
+   	.modal-lg {
+		width: 400px;
+	} 
+	.nomefora {
+		display:none;
+  }
+
+  #calendarioLRF {
+    padding-left: 0px !important;
+  }
+
+  #col_3_LRF {
+    padding-left: 15px !important;
+  }
+
+  #lrfDataExercicio {
+    float: none !important;
+  }
+
+  .quebraLinhaLRF {
+		display:block !important;
+	}
+
+  #dose2Responsive {
+    display:block !important;
+  }
+
+    #IconServicos {
+        width: 30% !important;
+        float: left;
+    }
+
+    #TituloServicos {
+        width: 59% !important;
+        display: inline-block;
+    }
+    .cartaservicos {
+        float: left; 
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .cartaservicosbannertexto {
+        font-size: 20px !important;;
+        line-height: 35px !important;;
+    }
+    #sticky-container-id {
+        display: none !important;
+    }
+    #ImagemIndexNoticia {
+        height: auto !important;
+    }
+
+    .linguas1 {
+      display: none;
+    }
+    .linguas2 {
+      display: block !important;
+    }
+    #botaoCapanha {
+      white-space: normal;
+      display: block;
+    }
+    .divNoticia5 {
+      height: 680px !important;
+    }
+    #campanhapergunta {
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+
+    #VCordet {
+      width: .66666667% !important;
+      display: table-cell;
+    }
+
+    .carousel {
+      margin-top: 20px;
+    }
+}
+/* XS Portrait */
+@media (max-width: 480px) {
+  .nomefora {
+		display:none;
+  }
+    .bs-col4 {
+      width: 50%;
+    }
+    .bs-col6 {
+      width: 50%;
+    }
+    .bs-col2 {
+      width: 100%;
+    }
+    #campanhapergunta {
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+    .bs-col4, .bs-col6, .bs-col2 { display: block; }
+    #botoes-unidades{
+        margin-top: 10px;
+        float: left !important;
+    }
+    .divNoticia5 {
+      height: 450px !important;
+    }
+
+    #campanhaTitulo {
+      margin-bottom: 75px !important; 
+    }
+
+    #culturaIndex {
+      margin-top: 0px !important;
+    }
+
+    .culturaIconeTelefone {
+      margin-right: 10px; 
+      margin-left: 5px;
+    }
+    
+    .culturaIconeEmail {
+      margin-right: 10px;
+    }
+    
+    .culturaIconeEndereco { 
+      margin-right: 19px !important;
+      margin-left: 5px !important;
+    }
+    
+    .culturaIconeHorario {
+      margin-right: 15px !important;
+    }
+
+    #botaoCampanhaTitulo {
+      margin-top: 5px !important;
+    }
+
+    #botaoCapanha {
+      white-space: normal;
+      display: block;
+    }
+    #ROuv{
+         display: inline-block !important;
+     }
+
+     #centralizarLogo {
+      width: 100% !important;
+     }
+     
+     #center_logo_no_responsive {
+      display: block;
+      text-align: -webkit-center;
+     }
+
+     .centralizar_numero_responsive0 {
+      padding-top: 25px !important;
+      height: 80px !important;
+     }
+
+     .espacamento_responsive0 {
+      padding-top: 15px !important;
+      height: 80px !important;
+     }
+
+     .espacamento_responsive1 {
+      padding-top: 15px !important;
+      height: 70px !important;
+     }
+
+     .espacamento_responsive2 {
+      padding-top: 15px !important;
+     }
+
+     .centralizar_numero_responsive {
+      padding-top: 15px !important;
+      height: 70px !important;
+     }
+
+     .vacina_col {
+      width: 50% !important;
+      float: left;
+     }
+
+     #diminuir_row_no_responsive {
+      margin-left: 0px !important;;
+      margin-right: 0px !important;;
+     }
+
+  .navbar-fixed-top, .navbar-fixed-bottom{
+    position:absolute;
+  }
+  	.modal-lg {
+		width: 380px;
+	}
+	.nomefora {
+		display:none;
+  }
+
+  #calendarioLRF {
+    padding-left: 0px !important;
+  }
+
+  #col_3_LRF {
+    padding-left: 15px !important;
+  }
+
+  #lrfDataExercicio {
+    float: none !important;
+  }
+
+  .quebraLinhaLRF {
+		display:block !important;
+  }
+
+  #dose2Responsive {
+    display:block !important;
+  }
+  
+        .unidadesocial{
+                vertical-align: baseline;
+                min-height: 140px;
+                min-width: 160px;
+        }
+    .public_paginas1 {
+        width: 100% !important;
+    }
+        #DataResponsive {
+            margin-right: 22px;
+        }
+    #sticky-container-id {
+        display: none !important;
+    }
+    #ImagemIndexNoticia {
+        height: auto !important;
+    }
+
+    .linguas2 {
+      display:block !important;
+    }
+
+    #covidBotao {
+      float: none !important;
+    }
+
+    #carta_servicos_retirar_display {
+      display: block !important;
+    }
+
+    .card{
+      flex-basis:100%;
+      padding:10px;
+    }
+
+    #VCordet {
+      width: .66666667% !important;
+      display: table-cell;
+    }
+
+    .carousel {
+      margin-top: 20px;
+    }
+    
+}
+@media (max-width: 727px){
+
+  #VCordet {
+    width: .66666667% !important;
+    display: table-cell;
+  }
+
+  .carousel {
+    margin-top: 20px;
+  }
+
+  .logoestado p {
+    width: 120px !important;
+  }
+  .nomefora {
+		display:none;
+  }  
+
+  .bs-col4 {
+    width: 50%;
+  }
+  .bs-col6 {
+    width: 50%;
+  }
+  .bs-col2 {
+    width: 100%;
+  }
+
+  #campanhapergunta {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+
+  .bs-col4, .bs-col6, .bs-col2 { display: block; }
+  #covidBotao {
+    float: none !important;
+  }
+
+  #col_9_LRF {
+    width: 70% !important;
+  }
+
+  #col_3_LRF {
+    width: 30% !important;
+  }
+
+    .card{
+        flex-basis:100%;
+        padding:10px;
+    }
+    .card2{
+        flex-basis:50%;
+        padding:0px;
+    }
+    .card3{
+        flex-basis:100%;
+        padding:10px;
+    }
+    
+    #omuniciopio_col_md_8 {
+      flex-basis: 100% !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  
+    #omuniciopio_col_md_4 {
+      flex-basis: 100% !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+    #carta_servicos_retirar_display {
+      display: block !important;
+    }
+
+    .imginfo{
+        flex-basis:100%;
+        padding:10px;
+        width: 100%;
+    }
+    
+    .google_translate_element{
+        margin-top: 40px;
+    }
+	
+	/* Force table to not be like tables anymore */
+	.table-condensed table, 
+	.table-condensed thead, 
+	.table-condensed tbody, 
+	.table-condensed th, 
+	.table-condensed td, 
+	.table-condensed tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.table-condensed thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	.table-condensed tr { border: 1px solid #ccc; }
+ 
+	.table-condensed>tbody>tr>td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 33%; 
+		white-space: normal;
+		text-align:left;
+                
+	}
+ 
+	.table-condensed td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	.table-condensed td:before { content: attr(data-title); display: block; }
+
+    .group-btn-export-item {
+        text-align:left;
+    }
+    .sticky-container {
+        display:none;
+    }
+    .group-btn-export .btn-primary {
+        width:100%;
+        margin-bottom:10px;
+    }
+    .group-btn-export .btn-group {
+        display:flex;
+    }
+
+
+    .card4{
+        flex-basis:50%;
+        padding:10px;
+    }
+
+    .colun-3 {
+        max-width:inherit;
+    }
+    .colun-3 div{
+        flex-grow: 1;
+    }
+    .colun-3 .public_index {
+        height:auto;
+    }
+
+    .caixa_objetos {
+        width:25%;
+    }
+    .caixa_objetos .linha {
+        display:none;
+    }
+    .caixa_objetos .circulo {
+        display:none;
+        margin-left:0;
+    }
+    .caixa_objetos .ativo {
+        display:block !important;
+    }
+    #iframeinc iframe {
+        width: 100%;
+        overflow: auto;
+    }
+    .top-number{
+        display: none;
+    }
+    #aumentarWidth{
+      width: 80% !important;
+     }
+
+     #centralizarLogo {
+      width: 100% !important;
+     }
+     
+     #center_logo_no_responsive {
+      display: block;
+      text-align: -webkit-center;
+     }
+
+     .centralizar_numero_responsive0 {
+      padding-top: 25px !important;
+      height: 80px !important;
+     }
+
+     .espacamento_responsive0 {
+      padding-top: 15px !important;
+      height: 80px !important;
+     }
+
+     .espacamento_responsive1 {
+      padding-top: 15px !important;
+      height: 70px !important;
+     }
+
+     .espacamento_responsive2 {
+      padding-top: 15px !important;
+     }
+     
+     .centralizar_numero_responsive {
+      padding-top: 15px !important;
+      height: 70px !important;
+     }
+
+     .vacina_col {
+      width: 50% !important;
+      float: left;
+     }
+
+     #diminuir_row_no_responsive {
+      margin-left: 0px !important;;
+      margin-right: 0px !important;;
+     }
+
+    #EsOv{
+        display: none;
+    }
+    .linguas {
+      display: block !important;
+    }
+    #l-obra{
+        width: 100%;
+        text-align: center;
+    }
+    #i-com{
+        font-size: 12px !important;
+    }
+    #lei {
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+    #i-diario{
+        margin-bottom: 5%;
+    }
+    #img-sec{
+        float: none !important;
+    }
+    #i-redeP{
+        width: 23% !important;
+    }
+    #i-redeV{
+        width: 23% !important;
+    }
+
+    #img_carousel {
+        height: auto !important;
+    }
+    #NeoUnidades{
+        padding-left: 0 !important;
+        padding-right: 0px !important;
+        margin-bottom: 10px !important;
+    }
+    #Sobre{
+        padding-left: 15px !important;
+    }
+    #CaixaBottom{
+        height: 100% !important;
+    }
+    #bottom .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 60%;
+    }
+    .item active{
+        height: auto !important;
+    }
+    .item{
+        height: auto !important;
+    }
+    #instiucional_licitacao {
+        width: 100%;
+    }
+    #setor_licitacao {
+        width: 93%;
+    }
+    #Projeto{
+        height: 100% !important;
+
+    }
+    #imgProgResponsiveSome {
+        display: none;
+    }
+    #imgProgResponsiveAparece {
+        display: block !important;
+        width: 80px !important;
+        height: 120px !important;
+        float: right;
+    }
+    
+    #IconServicos {
+        width: 40% !important;
+        float: left;
+    }
+
+    #TituloServicos {
+        width: 59% !important;
+        display: inline-block;
+    }
+    .cartaservicos {
+        float: left; 
+        margin-left: 10px;
+        margin-top: 1px;
+    }
+    .cartaservicosbannertexto {
+        font-size: 20px !important;;
+        line-height: 35px !important;;
+    }
+    .divrolagem {
+        height: auto !important;
+        width: auto !important;
+    }
+    #gestor {
+        float: none !important;
+    }
+    .gestor_vice_texto {
+        text-align: left !important; 
+    }
+    .noticia_coluna {
+        padding-left: 15px !important;
+    }
+    .noticia1 {
+         height: auto !important;
+    }
+    .divNoticia3 {
+        height: auto !important;
+    }
+    .divNoticia4 {
+        height: auto !important;
+    }
+    #sticky-container-id {
+        display: none !important;
+    }
+    #ImagemIndexNoticia {
+        height: auto !important;
+    }
+    .linguas1 {
+      display: none;
+    }
+    .linguas2 {
+      display: block !important;
+    }
+    
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      color: #fff !important;
+  } 
+  #campanhapergunta {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+  .nomefora {
+		display:none;
+  }
+  .logoestado p {
+    width: 120px !important;
+  }
+
+  .vacina_col {
+    width: 50% !important;
+    float: left;
+   }
+
+   #diminuir_row_no_responsive {
+    margin-left: 0px !important;;
+    margin-right: 0px !important;;
+   }
+}
+@media (max-width: 600px){
+
+.nomefora {
+      display:none;
+    }
+    .public_paginas1 {
+        width: 100% !important;
+    }
+    #campanhapergunta {
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+    .linguas1 {
+      display: none;
+    }
+    .linguas2 {
+      display: block !important;
+    }
+    .bs-col4 {
+      width: 50%
+    }
+    .bs-col6 {
+      width: 100%
+    }
+    #calendarioLRF {
+      padding-left: 0px !important;
+    }
+
+    #col_3_LRF {
+      padding-left: 15px !important;
+    }
+    
+    #lrfDataExercicio {
+      float: none !important;
+    }
+
+    .quebraLinhaLRF {
+      display:block !important;
+    }
+
+    #dose2Responsive {
+      display:block !important;
+    }
+    
+    #carta_servicos_retirar_display {
+      display: block !important;
+    }
+
+    .vacina_col {
+      width: 50% !important;
+      float: left;
+     }
+
+     #diminuir_row_no_responsive {
+      margin-left: 0px !important;;
+      margin-right: 0px !important;;
+     }
+}
