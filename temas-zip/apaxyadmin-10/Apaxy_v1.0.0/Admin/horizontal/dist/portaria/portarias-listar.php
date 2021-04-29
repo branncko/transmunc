@@ -1,8 +1,6 @@
 <?php
-include_once '../conectar.php';
-
+include_once './conectar.php';
 ?>
-
 <!doctype html>
 <html lang="pt-br">
 
@@ -10,13 +8,13 @@ include_once '../conectar.php';
     <meta charset="utf-8" />
     <title>Portarias</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesdesign" name="author" />
+    <meta content="Sistema de Transparência Municipal" name="description" />
+    <meta content="Branco Sousa" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
 
     <!-- DataTables -->
-    <link rel="stylesheet" href="style.css">
+
     <link href="../assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
     <link href="../assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
@@ -114,8 +112,8 @@ include_once '../conectar.php';
 
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <img src="./assets/images/flags/spain.jpg" alt="user-image" class="mr-2" height="12"><span
-                                    class="align-middle">Spanish</span>
+                                <img src="./assets/images/flags/spain.jpg" alt="user-image" class="mr-2"
+                                    height="12"><span class="align-middle">Spanish</span>
                             </a>
 
                             <!-- item-->
@@ -126,8 +124,8 @@ include_once '../conectar.php';
 
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <img src="./assets/images/flags/italy.jpg" alt="user-image" class="mr-2" height="12"><span
-                                    class="align-middle">Italian</span>
+                                <img src="./assets/images/flags/italy.jpg" alt="user-image" class="mr-2"
+                                    height="12"><span class="align-middle">Italian</span>
                             </a>
 
                             <!-- item-->
@@ -531,54 +529,30 @@ include_once '../conectar.php';
                                             </tr>
                                         </thead>
 
+                                        <?php
+                                        $result_portaria_cont = "SELECT * from portarias ORDER BY publicacao ASC";
+                                        $resultado_portaria_cont = $conn->prepare($result_portaria_cont);
+                                        $resultado_portaria_cont->execute();
+
+                                        ?>
+
                                         <tbody>
+
+                                        <?php while($row_portaria_cont = $resultado_portaria_cont->fetch(PDO::FETCH_ASSOC)) { ?>
                                             <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>$320,800</td>
-                                                <td>$320,800</td>
+                                                <td><?php echo $row_portaria_cont['portaria'];?></td>
+                                                <td><?php echo date('d/m/Y', strtotime($row_portaria_cont['publicacao'])); ?></td>
+                                                <td><?php echo $row_portaria_cont['exercicio'];?></td>
+                                                <td><?php echo $row_portaria_cont['nome'];?></td>
+                                                <td><?php echo $row_portaria_cont['cargo'];?></td>
+                                                <td><?php echo $row_portaria_cont['tipo'];?></td>
+                                                <td><?php echo $row_portaria_cont['detalhamento'];?></td>
+                                                
                                             </tr>
+
+                                            <?php }?>
+
                                             
-                                            <tr>
-                                                <td>Cedric Kelly</td>
-                                                <td>Senior Javascript Developer</td>
-                                                <td>Edinburgh</td>
-                                                <td>22</td>
-                                                <td>2012/03/29</td>
-                                                <td>$320,800</td>
-                                                <td>$433,060</td>
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td>Shad Decker</td>
-                                                <td>Regional Director</td>
-                                                <td>Edinburgh</td>
-                                                <td>51</td>
-                                                <td>2008/11/13</td>
-                                                <td>$320,800</td>
-                                                <td>$183,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Michael Bruce</td>
-                                                <td>Javascript Developer</td>
-                                                <td>Singapore</td>
-                                                <td>29</td>
-                                                <td>2011/06/27</td>
-                                                <td>$320,800</td>
-                                                <td>$183,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
-                                                <td>27</td>
-                                                <td>2011/01/25</td>
-                                                <td>$320,800</td>
-                                                <td>$112,000</td>
-                                            </tr>
                                         </tbody>
                                     </table>
 
@@ -599,6 +573,8 @@ include_once '../conectar.php';
                                         provides the based framework upon which plug-ins can built.
                                     </p>
 
+                                  
+
                                     <table id="datatable-buttons"
                                         class="table table-striped table-bordered dt-responsive nowrap"
                                         style="border-collapse: collapse; border-spacing: 0; width: 100%;">
@@ -615,8 +591,9 @@ include_once '../conectar.php';
 
 
                                         <tbody>
+                                       
                                             <tr>
-                                                <td>Tiger Nixon</td>
+                                                <td><?php echo date('d/m/Y', strtotime($row_portaria['publicacao'])); ?></td>
                                                 <td>System Architect</td>
                                                 <td>Edinburgh</td>
                                                 <td>61</td>
@@ -639,7 +616,7 @@ include_once '../conectar.php';
                                                 <td>2009/01/12</td>
                                                 <td>$86,000</td>
                                             </tr>
-                                        
+
                                             <tr>
                                                 <td>Michael Bruce</td>
                                                 <td>Javascript Developer</td>
@@ -1034,32 +1011,32 @@ include_once '../conectar.php';
     <div class="rightbar-overlay"></div>
 
     <!-- JAVASCRIPT -->
-    <script src="./assets/libs/jquery/jquery.min.js"></script>
-    <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/libs/metismenu/metisMenu.min.js"></script>
-    <script src="./assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="./assets/libs/node-waves/waves.min.js"></script>
+    <script src="../assets/libs/jquery/jquery.min.js"></script>
+    <script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="../assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="../assets/libs/node-waves/waves.min.js"></script>
 
     <!-- Required datatable js -->
-    <script src="./assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="./assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
     <!-- Buttons examples -->
-    <script src="./assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-    <script src="./assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-    <script src="./assets/libs/jszip/jszip.min.js"></script>
-    <script src="./assets/libs/pdfmake/build/pdfmake.min.js"></script>
-    <script src="./assets/libs/pdfmake/build/vfs_fonts.js"></script>
-    <script src="./assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
-    <script src="./assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
-    <script src="./assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+    <script src="../assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+    <script src="../assets/libs/jszip/jszip.min.js"></script>
+    <script src="../assets/libs/pdfmake/build/pdfmake.min.js"></script>
+    <script src="../assets/libs/pdfmake/build/vfs_fonts.js"></script>
+    <script src="../assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
     <!-- Responsive examples -->
-    <script src="./assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-    <script src="./assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+    <script src="../assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
 
     <!-- Datatable init js -->
-    <script src="./assets/js/pages/datatables.init.js"></script>
+    <script src="../assets/js/pages/datatables.init.js"></script>
 
-    <script src="./assets/js/app.js"></script>
+    <script src="../assets/js/app.js"></script>
 
 </body>
 
