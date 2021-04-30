@@ -1,6 +1,9 @@
 <?php
-$mysqli_connection = new MySQLi('localhost', 'transmunc', 'lamp', 'root');
-if($mysqli_connection->connect_error){
-   echo "Desconectado! Erro: " . $mysqli_connection->connect_error;
-}
+define('HOST','localhost');
+define('USER','root');
+define('PASS','lamp');
+define('DBNAME','transmunc');
+
+$conn = new PDO('mysql:host=' . HOST . ';dbname=' . DBNAME . ';', USER, PASS);
+
 ?>
