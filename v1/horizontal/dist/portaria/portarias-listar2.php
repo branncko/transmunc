@@ -1,6 +1,6 @@
 <?php
 include_once '../classes/conectar.php';
-$title = "Portarias sem botão";
+$title = "Portarias com botões";
 
 ?>
 <!doctype html>
@@ -50,7 +50,7 @@ $title = "Portarias sem botão";
                     <!-- App Search-->
                     <form class="app-search d-none d-lg-block">
                         <div class="position-relative">
-                            <input type="text" class="form-control" placeholder="Search...">
+                            <input type="text" class="form-control" placeholder="Pesquisar...">
                             <span class="mdi mdi-magnify"></span>
                         </div>
                     </form>
@@ -70,7 +70,7 @@ $title = "Portarias sem botão";
                             <form class="p-3">
                                 <div class="form-group m-0">
                                     <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Search ..."
+                                        <input type="text" class="form-control" placeholder="Pesquisar ..."
                                             aria-label="Recipient's username">
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="submit"><i
@@ -483,64 +483,7 @@ $title = "Portarias sem botão";
                     </div>
                     <!-- end page title -->
 
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-body">
-
-                                    <h4 class="header-title">Portarias</h4>
-                                    <p class="card-title-desc">DataTables has most features enabled by
-                                        default, so all you need to do to use it with your own tables is to call
-                                        the construction function: <code>$().DataTable();</code>.
-                                    </p>
-
-                                    <table id="datatable" class="table table-bordered dt-responsive nowrap"
-                                        style="border-collapse: collapse; border-spacing: 0; width: 100%;">
-                                        <thead>
-                                            <tr>
-                                                <th>Portaria</th>
-                                                <th>Publicação</th>
-                                                <th>Exercício</th>
-                                                <th>Nome</th>
-                                                <th>Cargo</th>
-                                                <th>Tipo</th>
-                                                <th>Documento</th>
-                                            </tr>
-                                        </thead>
-
-                                        <?php
-                                        $result_portaria_cont = "SELECT * from portarias ORDER BY publicacao ASC";
-                                        $resultado_portaria_cont = $conn->prepare($result_portaria_cont);
-                                        $resultado_portaria_cont->execute();
-
-                                        ?>
-
-                                        <tbody>
-
-                                            <?php while($row_portaria_cont = $resultado_portaria_cont->fetch(PDO::FETCH_ASSOC)) { ?>
-                                            <tr>
-                                                <td><?php echo $row_portaria_cont['portaria'];?></td>
-                                                <td><?php echo date('d/m/Y', strtotime($row_portaria_cont['publicacao'])); ?>
-                                                </td>
-                                                <td><?php echo $row_portaria_cont['exercicio'];?></td>
-                                                <td><?php echo $row_portaria_cont['nome'];?></td>
-                                                <td><?php echo $row_portaria_cont['cargo'];?></td>
-                                                <td><?php echo $row_portaria_cont['tipo'];?></td>
-                                                <td><?php echo $row_portaria_cont['detalhamento'];?></td>
-
-                                            </tr>
-
-                                            <?php }?>
-
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                        </div> <!-- end col -->
-                    </div> <!-- end row -->
-
+                    
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
@@ -571,19 +514,26 @@ $title = "Portarias sem botão";
                                             </tr>
                                         </thead>
 
+                                        <?php
+                                        $result_portaria_cont = "SELECT * from portarias ORDER BY exercicio DESC";
+                                        $resultado_portaria_cont = $conn->prepare($result_portaria_cont);
+                                        $resultado_portaria_cont->execute();
+
+                                        ?>
+
 
                                         <tbody>
 
-                                            <?php while($row_portaria_cont2 = $resultado_portaria_cont->fetch(PDO::FETCH_ASSOC)) { ?>
+                                            <?php while($row_portaria_cont = $resultado_portaria_cont->fetch(PDO::FETCH_ASSOC)) { ?>
                                             <tr>
-                                                <td><?php echo $row_portaria_cont2['portaria'];?></td>
+                                                <td><?php echo $row_portaria_cont['portaria'];?></td>
                                                 <td><?php echo date('d/m/Y', strtotime($row_portaria_cont['publicacao'])); ?>
                                                 </td>
-                                                <td><?php echo $row_portaria_cont2['exercicio'];?></td>
-                                                <td><?php echo $row_portaria_cont2['nome'];?></td>
-                                                <td><?php echo $row_portaria_cont2['cargo'];?></td>
-                                                <td><?php echo $row_portaria_cont2['tipo'];?></td>
-                                                <td><?php echo $row_portaria_cont2['detalhamento'];?></td>
+                                                <td><?php echo $row_portaria_cont['exercicio'];?></td>
+                                                <td><?php echo $row_portaria_cont['nome'];?></td>
+                                                <td><?php echo $row_portaria_cont['cargo'];?></td>
+                                                <td><?php echo $row_portaria_cont['tipo'];?></td>
+                                                <td><?php echo $row_portaria_cont['detalhamento'];?></td>
 
                                             </tr>
 
